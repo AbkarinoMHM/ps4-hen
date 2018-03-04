@@ -1,0 +1,122 @@
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 build/fpkg.o
+ .comment       0x0000000000000000       0x35 build/fpkg.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/fpkg.o
+ .eh_frame      0x0000000000000000      0x1e0 build/fpkg.o
+ .text          0x0000000000000000        0x0 build/fself.o
+ .comment       0x0000000000000000       0x35 build/fself.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/fself.o
+ .eh_frame      0x0000000000000000      0x150 build/fself.o
+ .text          0x0000000000000000        0x3 build/main.o
+ .text.unlikely
+                0x0000000000000000        0x0 build/main.o
+ .comment       0x0000000000000000       0x35 build/main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/main.o
+ .eh_frame      0x0000000000000000       0x58 build/main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build/fpkg.o
+LOAD build/fself.o
+LOAD build/main.o
+                0x0000000000000000                . = 0x0
+
+.payload_header
+                0x0000000000000000       0x20
+ *(.payload_header)
+ .payload_header
+                0x0000000000000000       0x20 build/main.o
+                0x0000000000000000                payload_header
+
+.payload_code   0x0000000000000020      0xa7d
+ *(.payload_code)
+ .payload_code  0x0000000000000020      0x5d7 build/fpkg.o
+                0x0000000000000170                my_sceSblKeymgrSmCallfunc_npdrm_decrypt_isolated_rif
+                0x00000000000001bc                my_sceSblPfsKeymgrGenEKpfsForGDGPAC_sceSblPfsKeymgrIoctl
+                0x000000000000035f                my_sceSblPfsSetKey_pfs_sbl_init
+                0x0000000000000491                my_sceSblServiceCryptAsync_pfs_crypto
+                0x000000000000056a                my_sceSblKeymgrSmCallfunc_npdrm_decrypt_rif_new
+ .payload_code  0x00000000000005f7      0x465 build/fself.o
+                0x000000000000064b                my_sceSblAuthMgrIsLoadable2
+                0x00000000000007da                my_sceSblAuthMgrVerifyHeader
+                0x00000000000008d8                my_sceSblAuthMgrSmLoadSelfSegment__sceSblServiceMailbox
+                0x000000000000092c                my_sceSblAuthMgrSmLoadSelfBlock__sceSblServiceMailbox
+ .payload_code  0x0000000000000a5c       0x41 build/main.o
+                0x0000000000000a5c                debug_pfs_cleanup
+                0x0000000000000a69                my_entrypoint
+
+.payload_data   0x0000000000000aa0      0x720
+ *(.payload_rdata .rodata.*)
+ .payload_rdata
+                0x0000000000000aa0      0x2a0 build/fpkg.o
+ .payload_rdata
+                0x0000000000000d40      0x128 build/fself.o
+ .rodata.str1.1
+                0x0000000000000e68       0x21 build/main.o
+ *(.payload_data)
+ *fill*         0x0000000000000e89       0x17 
+ .payload_data  0x0000000000000ea0      0x320 build/main.o
+                0x0000000000000ea0                disp_infos
+                0x0000000000000fe0                real_infos
+
+.payload_bss    0x00000000000011c0      0x588
+ *(.payload_bss)
+ .payload_bss   0x00000000000011c0      0x588 build/main.o
+                0x00000000000011c0                s_fake_keys_lock
+                0x00000000000011e0                s_fake_keys
+                0x0000000000001660                sbl_keymgr_key_rbtree
+                0x0000000000001668                sbl_driver_mapped_pages
+                0x0000000000001670                mini_syscore_self_binary
+                0x0000000000001678                fpu_ctx
+                0x0000000000001680                M_TEMP
+                0x0000000000001688                real_sceSblKeymgrSmCallfunc
+                0x0000000000001690                real_sceSblServiceCryptAsync
+                0x0000000000001698                real_sceSblPfsSetKey
+                0x00000000000016a0                real_sceSblPfsKeymgrGenEKpfsForGDGPAC
+                0x00000000000016a8                real_sceSblAuthMgrVerifyHeader
+                0x00000000000016b0                real_sceSblAuthMgrIsLoadable2
+                0x00000000000016b8                real_sceSblAuthMgrGetSelfInfo
+                0x00000000000016c0                real_sceSblServiceMailbox
+                0x00000000000016c8                real_sceSblAuthMgrSmStart
+                0x00000000000016d0                real_sx_destroy
+                0x00000000000016d8                real_sx_init_flags
+                0x00000000000016e0                real_eventhandler_register
+                0x00000000000016e8                real_RsaesPkcs1v15Dec2048CRT
+                0x00000000000016f0                real_AesCbcCfb128Decrypt
+                0x00000000000016f8                real_Sha256Hmac
+                0x0000000000001700                real_fpu_kern_leave
+                0x0000000000001708                real_fpu_kern_enter
+                0x0000000000001710                real_sx_xunlock
+                0x0000000000001718                real_sx_xlock
+                0x0000000000001720                real_memset
+                0x0000000000001728                real_memcmp
+                0x0000000000001730                real_memcpy
+                0x0000000000001738                real_free
+                0x0000000000001740                real_malloc
+                0x0000000000100000                . = 0x100000
+
+.data           0x0000000000100000        0x0
+ *(.data)
+ .data          0x0000000000100000        0x0 build/fpkg.o
+ .data          0x0000000000100000        0x0 build/fself.o
+ .data          0x0000000000100000        0x0 build/main.o
+
+.bss            0x0000000000100000        0x0
+ *(.bss)
+ .bss           0x0000000000100000        0x0 build/fpkg.o
+ .bss           0x0000000000100000        0x0 build/fself.o
+ .bss           0x0000000000100000        0x0 build/main.o
+
+/DISCARD/
+ *(*)
+OUTPUT(temp.t elf64-x86-64)

@@ -1,0 +1,480 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/abkarino/PS4-SDK/libPS4/libPS4.a(file.o)
+                              build/patch.o (write)
+/home/abkarino/PS4-SDK/libPS4/libPS4.a(sysutil.o)
+                              build/main.o (initSysUtil)
+/home/abkarino/PS4-SDK/libPS4/libPS4.a(module.o)
+                              /home/abkarino/PS4-SDK/libPS4/libPS4.a(sysutil.o) (getFunctionAddressByName)
+/home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+                              build/main.o (initLibc)
+/home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+                              build/main.o (kexec)
+/home/abkarino/PS4-SDK/libPS4/libPS4.a(syscall.o)
+                              /home/abkarino/PS4-SDK/libPS4/libPS4.a(file.o) (syscall)
+
+Allocating common symbols
+Common symbol       size              file
+
+strcpy              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+asctime             0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+sceKernelGettimeofday
+                    0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+sceSysmoduleLoadModule
+                    0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(module.o)
+getgid              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+strerror            0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+snprintf            0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+libKernelHandle     0x4               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+__stack_chk_guard   0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+execve              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+getpid              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+sceKernelSleep      0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+memcpy              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+sceKernelGetCurrentCpu
+                    0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+seekdir             0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+sceKernelDeleteEqueue
+                    0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+sock                0x4               build/main.o
+getuid              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+rewinddir           0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+malloc              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+readdir_r           0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+getprogname         0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+readdir             0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+sceSysUtilSendSystemNotificationWithText
+                    0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(sysutil.o)
+__stack_chk_fail    0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+sceKernelMapDirectMemory
+                    0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+sysarch             0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+strrchr             0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+calloc              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+rindex              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+sceKernelError      0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+_Getpctype          0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+sysctl              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+fprintf             0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+ctime               0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+sceKernelRead       0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+strcat              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+setregid            0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+fseek               0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+mktime              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+strstr              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+__error             0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+rand                0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+setgid              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+dirfd               0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+sceKernelLseek      0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+sceKernelStat       0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+strlcpy             0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+strncmp             0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+sceKernelLoadStartModule
+                    0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+strncpy             0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+realloc             0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+bcopy               0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+memcmp              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+sceKernelClose      0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+sscanf              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+strncat             0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+fread               0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+_Stoul              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+pthread_setaffinity_np
+                    0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+strdup              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+index               0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+fopen               0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+sceKernelGetProcessTime
+                    0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+asctime_r           0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+setreuid            0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+localtime           0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+memset              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+ftell               0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+srand               0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+fclose              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+sceKernelAllocateDirectMemory
+                    0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+time                0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+opendir             0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+strcmp              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+gmtime_s            0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+memalign            0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+sprintf             0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+ctime_r             0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+sceKernelUsleep     0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+sceKernelAddUserEvent
+                    0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+pthread_self        0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+localtime_r         0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+isdigit             0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+fwrite              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+sceKernelCreateEqueue
+                    0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+atoi                0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+gmtime              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+strlen              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+sceKernelOpen       0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+strchr              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+closedir            0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+setuid              0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+sceKernelAddReadEvent
+                    0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+telldir             0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+sysctlbyname        0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+free                0x8               /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 /tmp/cc11Bxvi.o
+ .bss           0x0000000000000000        0x0 /tmp/cc11Bxvi.o
+ .text          0x0000000000000000        0x0 build/debug.o
+ .data          0x0000000000000000        0x0 build/debug.o
+ .bss           0x0000000000000000        0x0 build/debug.o
+ .text.unlikely.notify
+                0x0000000000000000        0x0 build/debug.o
+ .eh_frame      0x0000000000000000       0x38 build/debug.o
+ .text          0x0000000000000000        0x0 build/embed.o
+ .data          0x0000000000000000        0x0 build/embed.o
+ .bss           0x0000000000000000        0x0 build/embed.o
+ .text          0x0000000000000000        0x0 build/main.o
+ .data          0x0000000000000000        0x0 build/main.o
+ .bss           0x0000000000000000        0x0 build/main.o
+ .text.unlikely.install_payload
+                0x0000000000000000        0x0 build/main.o
+ .text.unlikely.kernel_payload
+                0x0000000000000000        0x0 build/main.o
+ .text.unlikely._main
+                0x0000000000000000        0x0 build/main.o
+ .eh_frame      0x0000000000000000       0xa0 build/main.o
+ COMMON         0x0000000000000000        0x4 build/main.o
+ .text          0x0000000000000000        0x0 build/patch.o
+ .bss           0x0000000000000000        0x0 build/patch.o
+ .text.unlikely.find_process
+                0x0000000000000000        0x0 build/patch.o
+ .text.unlikely.get_code_info
+                0x0000000000000000        0x0 build/patch.o
+ .text.unlikely.apply_patches
+                0x0000000000000000        0x0 build/patch.o
+ .text.unlikely.mount_procfs
+                0x0000000000000000        0x0 build/patch.o
+ .text.unlikely.do_patch
+                0x0000000000000000        0x0 build/patch.o
+ .eh_frame      0x0000000000000000      0x120 build/patch.o
+ .data          0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(file.o)
+ .bss           0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(file.o)
+ .text.unlikely
+                0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(file.o)
+ .eh_frame      0x0000000000000000       0x30 /home/abkarino/PS4-SDK/libPS4/libPS4.a(file.o)
+ .data          0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(sysutil.o)
+ .bss           0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(sysutil.o)
+ .text.unlikely
+                0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(sysutil.o)
+ .eh_frame      0x0000000000000000       0x30 /home/abkarino/PS4-SDK/libPS4/libPS4.a(sysutil.o)
+ .data          0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(module.o)
+ .bss           0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(module.o)
+ .text.unlikely
+                0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(module.o)
+ .eh_frame      0x0000000000000000       0x78 /home/abkarino/PS4-SDK/libPS4/libPS4.a(module.o)
+ .data          0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+ .bss           0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+ .text.unlikely
+                0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+ .eh_frame      0x0000000000000000       0x48 /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+ .data          0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+ .bss           0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+ .text.unlikely
+                0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+ .eh_frame      0x0000000000000000       0x38 /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+ .data          0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(syscall.o)
+ .bss           0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(syscall.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /tmp/cc11Bxvi.o
+LOAD build/debug.o
+LOAD build/embed.o
+LOAD build/main.o
+LOAD build/patch.o
+                0x0000000926200000                . = 0x926200000
+
+.text           0x0000000926200000     0x14d0
+ *(.text.start)
+ *(.text*)
+ .text          0x0000000926200000        0x5 /tmp/cc11Bxvi.o
+                0x0000000926200000                _start
+ .text.notify   0x0000000926200005       0x34 build/debug.o
+                0x0000000926200005                notify
+ .text.install_payload
+                0x0000000926200039      0x18b build/main.o
+                0x0000000926200039                install_payload
+ .text.kernel_payload
+                0x00000009262001c4       0xf3 build/main.o
+                0x00000009262001c4                kernel_payload
+ .text._main    0x00000009262002b7       0xe0 build/main.o
+                0x00000009262002b7                _main
+ .text.find_process
+                0x0000000926200397      0x11c build/patch.o
+                0x0000000926200397                find_process
+ .text.get_code_info
+                0x00000009262004b3      0x131 build/patch.o
+                0x00000009262004b3                get_code_info
+ .text.apply_patches
+                0x00000009262005e4       0xb2 build/patch.o
+                0x00000009262005e4                apply_patches
+ .text.mount_procfs
+                0x0000000926200696       0x47 build/patch.o
+                0x0000000926200696                mount_procfs
+ .text.do_patch
+                0x00000009262006dd       0x58 build/patch.o
+                0x00000009262006dd                do_patch
+ *fill*         0x0000000926200735        0xb 
+ .text          0x0000000926200740      0x10d /home/abkarino/PS4-SDK/libPS4/libPS4.a(file.o)
+                0x0000000926200740                read
+                0x000000092620074c                write
+                0x0000000926200758                open
+                0x0000000926200764                close
+                0x0000000926200770                unlink
+                0x000000092620077c                readlink
+                0x0000000926200788                mount
+                0x0000000926200794                nmount
+                0x00000009262007a0                unmount
+                0x00000009262007ac                fchown
+                0x00000009262007b8                fchmod
+                0x00000009262007c4                rename
+                0x00000009262007d0                mkdir
+                0x00000009262007dc                rmdir
+                0x00000009262007e8                stat
+                0x00000009262007f4                fstat
+                0x0000000926200800                getdents
+                0x000000092620080c                lseek
+                0x0000000926200818                fstatat
+                0x0000000926200828                getSandboxDirectory
+ *fill*         0x000000092620084d        0x3 
+ .text          0x0000000926200850       0x4c /home/abkarino/PS4-SDK/libPS4/libPS4.a(sysutil.o)
+                0x0000000926200850                initSysUtil
+ *fill*         0x000000092620089c        0x4 
+ .text          0x00000009262008a0       0xf4 /home/abkarino/PS4-SDK/libPS4/libPS4.a(module.o)
+                0x00000009262008a0                getFunctionAddressByName
+                0x00000009262008ac                getLoadedModules
+                0x00000009262008c0                getModuleInfo
+                0x00000009262008f0                loadModule
+                0x0000000926200920                unloadModule
+                0x0000000926200948                initModule
+ *fill*         0x0000000926200994        0xc 
+ .text          0x00000009262009a0      0x5c5 /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+                0x00000009262009a0                initLibc
+ *fill*         0x0000000926200f65        0xb 
+ .text          0x0000000926200f70      0x531 /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+                0x0000000926200f70                kill
+                0x0000000926200f7c                ioctl
+                0x0000000926200f88                kexec
+                0x0000000926200f98                initKernel
+ .text          0x00000009262014a1       0x2f /home/abkarino/PS4-SDK/libPS4/libPS4.a(syscall.o)
+                0x00000009262014a1                syscall
+                0x00000009262014a4                syscall_macro
+
+.iplt           0x00000009262014d0        0x0
+ .iplt          0x00000009262014d0        0x0 /tmp/cc11Bxvi.o
+
+.rodata         0x00000009262014d0     0x16d4
+ *(.rodata)
+ .rodata        0x00000009262014d0     0x11c4 build/embed.o
+                0x00000009262014d0                kpayload
+                0x0000000926202690                kpayload_size
+ .rodata        0x0000000926202694        0x6 build/patch.o
+ *(.rodata*)
+ .rodata.str1.1
+                0x000000092620269a        0xa build/debug.o
+ .rodata.str1.1
+                0x00000009262026a4       0x4c build/main.o
+ .rodata.str1.1
+                0x00000009262026f0       0x35 build/patch.o
+ *fill*         0x0000000926202725        0x3 
+ .rodata.str1.8
+                0x0000000926202728       0x58 /home/abkarino/PS4-SDK/libPS4/libPS4.a(sysutil.o)
+                                         0x51 (size before relaxing)
+ .rodata.str1.1
+                0x0000000926202780       0x2c /home/abkarino/PS4-SDK/libPS4/libPS4.a(module.o)
+ .rodata.str1.1
+                0x00000009262027ac      0x1b9 /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+                                        0x1d7 (size before relaxing)
+ .rodata.str1.1
+                0x0000000926202965      0x23f /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+
+.eh_frame_hdr   0x0000000926202ba4        0x0
+ .eh_frame_hdr  0x0000000926202ba4        0x0 build/debug.o
+
+.rela.dyn       0x0000000926202ba8        0x0
+ .rela.iplt     0x0000000926202ba8        0x0 /tmp/cc11Bxvi.o
+ .rela.text     0x0000000926202ba8        0x0 /tmp/cc11Bxvi.o
+ .rela.text.notify
+                0x0000000926202ba8        0x0 /tmp/cc11Bxvi.o
+ .rela.text.install_payload
+                0x0000000926202ba8        0x0 /tmp/cc11Bxvi.o
+ .rela.text._main
+                0x0000000926202ba8        0x0 /tmp/cc11Bxvi.o
+ .rela.text.find_process
+                0x0000000926202ba8        0x0 /tmp/cc11Bxvi.o
+ .rela.text.get_code_info
+                0x0000000926202ba8        0x0 /tmp/cc11Bxvi.o
+ .rela.text.apply_patches
+                0x0000000926202ba8        0x0 /tmp/cc11Bxvi.o
+ .rela.text.mount_procfs
+                0x0000000926202ba8        0x0 /tmp/cc11Bxvi.o
+                0x0000000926300000                . = 0x926300000
+
+.data           0x0000000926300000      0x100
+ *(.data)
+ .data          0x0000000926300000      0x100 build/patch.o
+
+.igot.plt       0x0000000926300100        0x0
+ .igot.plt      0x0000000926300100        0x0 /tmp/cc11Bxvi.o
+
+.bss            0x0000000926300100      0x300
+ *(.bss)
+ COMMON         0x0000000926300100        0x8 /home/abkarino/PS4-SDK/libPS4/libPS4.a(sysutil.o)
+                0x0000000926300100                sceSysUtilSendSystemNotificationWithText
+ COMMON         0x0000000926300108        0x8 /home/abkarino/PS4-SDK/libPS4/libPS4.a(module.o)
+                0x0000000926300108                sceSysmoduleLoadModule
+ COMMON         0x0000000926300110      0x1d8 /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+                0x0000000926300110                strcpy
+                0x0000000926300118                asctime
+                0x0000000926300120                strerror
+                0x0000000926300128                snprintf
+                0x0000000926300130                memcpy
+                0x0000000926300138                seekdir
+                0x0000000926300140                rewinddir
+                0x0000000926300148                malloc
+                0x0000000926300150                readdir_r
+                0x0000000926300158                getprogname
+                0x0000000926300160                readdir
+                0x0000000926300168                strrchr
+                0x0000000926300170                calloc
+                0x0000000926300178                rindex
+                0x0000000926300180                _Getpctype
+                0x0000000926300188                fprintf
+                0x0000000926300190                ctime
+                0x0000000926300198                strcat
+                0x00000009263001a0                fseek
+                0x00000009263001a8                mktime
+                0x00000009263001b0                strstr
+                0x00000009263001b8                rand
+                0x00000009263001c0                dirfd
+                0x00000009263001c8                strlcpy
+                0x00000009263001d0                strncmp
+                0x00000009263001d8                strncpy
+                0x00000009263001e0                realloc
+                0x00000009263001e8                bcopy
+                0x00000009263001f0                memcmp
+                0x00000009263001f8                sscanf
+                0x0000000926300200                strncat
+                0x0000000926300208                fread
+                0x0000000926300210                _Stoul
+                0x0000000926300218                strdup
+                0x0000000926300220                index
+                0x0000000926300228                fopen
+                0x0000000926300230                asctime_r
+                0x0000000926300238                localtime
+                0x0000000926300240                memset
+                0x0000000926300248                ftell
+                0x0000000926300250                srand
+                0x0000000926300258                fclose
+                0x0000000926300260                time
+                0x0000000926300268                opendir
+                0x0000000926300270                strcmp
+                0x0000000926300278                gmtime_s
+                0x0000000926300280                memalign
+                0x0000000926300288                sprintf
+                0x0000000926300290                ctime_r
+                0x0000000926300298                localtime_r
+                0x00000009263002a0                isdigit
+                0x00000009263002a8                fwrite
+                0x00000009263002b0                atoi
+                0x00000009263002b8                gmtime
+                0x00000009263002c0                strlen
+                0x00000009263002c8                strchr
+                0x00000009263002d0                closedir
+                0x00000009263002d8                telldir
+                0x00000009263002e0                free
+ COMMON         0x00000009263002e8      0x118 /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+                0x00000009263002e8                sceKernelGettimeofday
+                0x00000009263002f0                getgid
+                0x00000009263002f8                libKernelHandle
+                0x0000000926300300                __stack_chk_guard
+                0x0000000926300308                execve
+                0x0000000926300310                getpid
+                0x0000000926300318                sceKernelSleep
+                0x0000000926300320                sceKernelGetCurrentCpu
+                0x0000000926300328                sceKernelDeleteEqueue
+                0x0000000926300330                getuid
+                0x0000000926300338                __stack_chk_fail
+                0x0000000926300340                sceKernelMapDirectMemory
+                0x0000000926300348                sysarch
+                0x0000000926300350                sceKernelError
+                0x0000000926300358                sysctl
+                0x0000000926300360                sceKernelRead
+                0x0000000926300368                setregid
+                0x0000000926300370                __error
+                0x0000000926300378                setgid
+                0x0000000926300380                sceKernelLseek
+                0x0000000926300388                sceKernelStat
+                0x0000000926300390                sceKernelLoadStartModule
+                0x0000000926300398                sceKernelClose
+                0x00000009263003a0                pthread_setaffinity_np
+                0x00000009263003a8                sceKernelGetProcessTime
+                0x00000009263003b0                setreuid
+                0x00000009263003b8                sceKernelAllocateDirectMemory
+                0x00000009263003c0                sceKernelUsleep
+                0x00000009263003c8                sceKernelAddUserEvent
+                0x00000009263003d0                pthread_self
+                0x00000009263003d8                sceKernelCreateEqueue
+                0x00000009263003e0                sceKernelOpen
+                0x00000009263003e8                setuid
+                0x00000009263003f0                sceKernelAddReadEvent
+                0x00000009263003f8                sysctlbyname
+                0x00000009263ffff8                . = 0x9263ffff8
+
+.sc_rop         0x00000009263ffff8        0x8
+ *(.sc_rop)
+ .sc_rop        0x00000009263ffff8        0x8 /home/abkarino/PS4-SDK/libPS4/libPS4.a(syscall.o)
+LOAD /home/abkarino/PS4-SDK/libPS4/libPS4.a
+OUTPUT(temp.t elf64-x86-64)
+
+.comment        0x0000000000000000       0x34
+ .comment       0x0000000000000000       0x34 build/debug.o
+                                         0x35 (size before relaxing)
+ .comment       0x0000000000000034       0x35 build/main.o
+ .comment       0x0000000000000034       0x35 build/patch.o
+ .comment       0x0000000000000034       0x35 /home/abkarino/PS4-SDK/libPS4/libPS4.a(file.o)
+ .comment       0x0000000000000034       0x35 /home/abkarino/PS4-SDK/libPS4/libPS4.a(sysutil.o)
+ .comment       0x0000000000000034       0x35 /home/abkarino/PS4-SDK/libPS4/libPS4.a(module.o)
+ .comment       0x0000000000000034       0x35 /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+ .comment       0x0000000000000034       0x35 /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/debug.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/patch.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(file.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(sysutil.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(module.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(libc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/abkarino/PS4-SDK/libPS4/libPS4.a(kernel.o)
